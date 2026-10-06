@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.37710.0 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Range Checker", "Range Checker\Range Checker.csproj", "{65F90374-1DE7-4017-85D7-D47B31ED4481}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{65F90374-1DE7-4017-85D7-D47B31ED4481}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65F90374-1DE7-4017-85D7-D47B31ED4481}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65F90374-1DE7-4017-85D7-D47B31ED4481}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65F90374-1DE7-4017-85D7-D47B31ED4481}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6DD4AD9D-9ECE-4B2B-8148-7054C9130AD1}
+	EndGlobalSection
+EndGlobal
