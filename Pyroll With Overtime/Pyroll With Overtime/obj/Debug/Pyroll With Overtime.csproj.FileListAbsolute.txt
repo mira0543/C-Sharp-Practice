@@ -1,0 +1,11 @@
+C:\Users\cabdi\source\repos\Pyroll With Overtime\Pyroll With Overtime\bin\Debug\Pyroll With Overtime.exe.config
+C:\Users\cabdi\source\repos\Pyroll With Overtime\Pyroll With Overtime\bin\Debug\Pyroll With Overtime.exe
+C:\Users\cabdi\source\repos\Pyroll With Overtime\Pyroll With Overtime\bin\Debug\Pyroll With Overtime.pdb
+C:\Users\cabdi\source\repos\Pyroll With Overtime\Pyroll With Overtime\obj\Debug\Pyroll With Overtime.csproj.AssemblyReference.cache
+C:\Users\cabdi\source\repos\Pyroll With Overtime\Pyroll With Overtime\obj\Debug\Pyroll_With_Overtime.Form1.resources
+C:\Users\cabdi\source\repos\Pyroll With Overtime\Pyroll With Overtime\obj\Debug\Pyroll_With_Overtime.Properties.Resources.resources
+C:\Users\cabdi\source\repos\Pyroll With Overtime\Pyroll With Overtime\obj\Debug\Pyroll With Overtime.csproj.GenerateResource.cache
+C:\Users\cabdi\source\repos\Pyroll With Overtime\Pyroll With Overtime\obj\Debug\Pyroll With Overtime.csproj.CoreCompileInputs.cache
+C:\Users\cabdi\source\repos\Pyroll With Overtime\Pyroll With Overtime\obj\Debug\Pyroll With Overtime.exe
+C:\Users\cabdi\source\repos\Pyroll With Overtime\Pyroll With Overtime\obj\Debug\Pyroll With Overtime.pdb
+C:\Users\cabdi\source\repos\Pyroll With Overtime\Pyroll With Overtime\obj\Debug\Pyroll With Overtime.exe.config

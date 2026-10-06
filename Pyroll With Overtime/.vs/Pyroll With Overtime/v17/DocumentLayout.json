@@ -1,0 +1,70 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\cabdi\\source\\repos\\Pyroll With Overtime\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{061B075F-FABA-4297-867C-FEDB7B316A31}|Pyroll With Overtime\\Pyroll With Overtime.csproj|c:\\users\\cabdi\\source\\repos\\pyroll with overtime\\pyroll with overtime\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{061B075F-FABA-4297-867C-FEDB7B316A31}|Pyroll With Overtime\\Pyroll With Overtime.csproj|solutionrelative:pyroll with overtime\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{061B075F-FABA-4297-867C-FEDB7B316A31}|Pyroll With Overtime\\Pyroll With Overtime.csproj|c:\\users\\cabdi\\source\\repos\\pyroll with overtime\\pyroll with overtime\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{061B075F-FABA-4297-867C-FEDB7B316A31}|Pyroll With Overtime\\Pyroll With Overtime.csproj|solutionrelative:pyroll with overtime\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{061B075F-FABA-4297-867C-FEDB7B316A31}|Pyroll With Overtime\\Pyroll With Overtime.csproj|c:\\users\\cabdi\\source\\repos\\pyroll with overtime\\pyroll with overtime\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{061B075F-FABA-4297-867C-FEDB7B316A31}|Pyroll With Overtime\\Pyroll With Overtime.csproj|solutionrelative:pyroll with overtime\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\cabdi\\source\\repos\\Pyroll With Overtime\\Pyroll With Overtime\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "Pyroll With Overtime\\Form1.Designer.cs",
+              "ToolTip": "C:\\Users\\cabdi\\source\\repos\\Pyroll With Overtime\\Pyroll With Overtime\\Form1.Designer.cs",
+              "RelativeToolTip": "Pyroll With Overtime\\Form1.Designer.cs",
+              "ViewState": "AgIAAHgAAAAAAAAAAAAAwIIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-05T04:59:40.899Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\cabdi\\source\\repos\\Pyroll With Overtime\\Pyroll With Overtime\\Form1.cs",
+              "RelativeDocumentMoniker": "Pyroll With Overtime\\Form1.cs",
+              "ToolTip": "C:\\Users\\cabdi\\source\\repos\\Pyroll With Overtime\\Pyroll With Overtime\\Form1.cs",
+              "RelativeToolTip": "Pyroll With Overtime\\Form1.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAADgv1AAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-05T04:23:12.592Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\cabdi\\source\\repos\\Pyroll With Overtime\\Pyroll With Overtime\\Form1.cs",
+              "RelativeDocumentMoniker": "Pyroll With Overtime\\Form1.cs",
+              "ToolTip": "C:\\Users\\cabdi\\source\\repos\\Pyroll With Overtime\\Pyroll With Overtime\\Form1.cs [Design]",
+              "RelativeToolTip": "Pyroll With Overtime\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-05T03:23:33.67Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
