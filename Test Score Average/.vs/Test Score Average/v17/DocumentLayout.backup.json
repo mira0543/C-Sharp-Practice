@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\cabdi\\source\\repos\\Test Score Average\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4FCA59A5-E041-4F55-8ACC-4D8566EF55E4}|Test Score Average\\Test Score Average.csproj|c:\\users\\cabdi\\source\\repos\\test score average\\test score average\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4FCA59A5-E041-4F55-8ACC-4D8566EF55E4}|Test Score Average\\Test Score Average.csproj|solutionrelative:test score average\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FCA59A5-E041-4F55-8ACC-4D8566EF55E4}|Test Score Average\\Test Score Average.csproj|c:\\users\\cabdi\\source\\repos\\test score average\\test score average\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FCA59A5-E041-4F55-8ACC-4D8566EF55E4}|Test Score Average\\Test Score Average.csproj|solutionrelative:test score average\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\cabdi\\source\\repos\\Test Score Average\\Test Score Average\\Form1.cs",
+              "RelativeDocumentMoniker": "Test Score Average\\Form1.cs",
+              "ToolTip": "C:\\Users\\cabdi\\source\\repos\\Test Score Average\\Test Score Average\\Form1.cs [Design]*",
+              "RelativeToolTip": "Test Score Average\\Form1.cs [Design]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-04T07:27:20.728Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\cabdi\\source\\repos\\Test Score Average\\Test Score Average\\Form1.cs",
+              "RelativeDocumentMoniker": "Test Score Average\\Form1.cs",
+              "ToolTip": "C:\\Users\\cabdi\\source\\repos\\Test Score Average\\Test Score Average\\Form1.cs*",
+              "RelativeToolTip": "Test Score Average\\Form1.cs*",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAnwFkAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-04T06:13:51.394Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

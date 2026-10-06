@@ -1,0 +1,11 @@
+C:\Users\cabdi\source\repos\Test Score Average\Test Score Average\bin\Debug\Test Score Average.exe.config
+C:\Users\cabdi\source\repos\Test Score Average\Test Score Average\bin\Debug\Test Score Average.exe
+C:\Users\cabdi\source\repos\Test Score Average\Test Score Average\bin\Debug\Test Score Average.pdb
+C:\Users\cabdi\source\repos\Test Score Average\Test Score Average\obj\Debug\Test Score Average.csproj.AssemblyReference.cache
+C:\Users\cabdi\source\repos\Test Score Average\Test Score Average\obj\Debug\Test_Score_Average.Form1.resources
+C:\Users\cabdi\source\repos\Test Score Average\Test Score Average\obj\Debug\Test_Score_Average.Properties.Resources.resources
+C:\Users\cabdi\source\repos\Test Score Average\Test Score Average\obj\Debug\Test Score Average.csproj.GenerateResource.cache
+C:\Users\cabdi\source\repos\Test Score Average\Test Score Average\obj\Debug\Test Score Average.csproj.CoreCompileInputs.cache
+C:\Users\cabdi\source\repos\Test Score Average\Test Score Average\obj\Debug\Test Score Average.exe
+C:\Users\cabdi\source\repos\Test Score Average\Test Score Average\obj\Debug\Test Score Average.pdb
+C:\Users\cabdi\source\repos\Test Score Average\Test Score Average\obj\Debug\Test Score Average.exe.config
