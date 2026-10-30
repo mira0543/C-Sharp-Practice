@@ -1,0 +1,11 @@
+C:\Users\Fatima Abdullahi\source\repos\Viechal Rental Management System\Viechal Rental Management System\bin\Debug\Viechal Rental Management System.exe.config
+C:\Users\Fatima Abdullahi\source\repos\Viechal Rental Management System\Viechal Rental Management System\bin\Debug\Viechal Rental Management System.exe
+C:\Users\Fatima Abdullahi\source\repos\Viechal Rental Management System\Viechal Rental Management System\bin\Debug\Viechal Rental Management System.pdb
+C:\Users\Fatima Abdullahi\source\repos\Viechal Rental Management System\Viechal Rental Management System\obj\Debug\Viechal Rental Management System.csproj.AssemblyReference.cache
+C:\Users\Fatima Abdullahi\source\repos\Viechal Rental Management System\Viechal Rental Management System\obj\Debug\Viechal_Rental_Management_System.Form1.resources
+C:\Users\Fatima Abdullahi\source\repos\Viechal Rental Management System\Viechal Rental Management System\obj\Debug\Viechal_Rental_Management_System.Properties.Resources.resources
+C:\Users\Fatima Abdullahi\source\repos\Viechal Rental Management System\Viechal Rental Management System\obj\Debug\Viechal Rental Management System.csproj.GenerateResource.cache
+C:\Users\Fatima Abdullahi\source\repos\Viechal Rental Management System\Viechal Rental Management System\obj\Debug\Viechal Rental Management System.csproj.CoreCompileInputs.cache
+C:\Users\Fatima Abdullahi\source\repos\Viechal Rental Management System\Viechal Rental Management System\obj\Debug\Viechal Rental Management System.exe
+C:\Users\Fatima Abdullahi\source\repos\Viechal Rental Management System\Viechal Rental Management System\obj\Debug\Viechal Rental Management System.pdb
+C:\Users\Fatima Abdullahi\source\repos\Viechal Rental Management System\Viechal Rental Management System\obj\Debug\Viechal Rental Management System.exe.config
