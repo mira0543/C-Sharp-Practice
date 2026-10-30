@@ -1,0 +1,11 @@
+C:\Users\Fatima Abdullahi\source\repos\BMI System\BMI System\bin\Debug\BMI System.exe.config
+C:\Users\Fatima Abdullahi\source\repos\BMI System\BMI System\bin\Debug\BMI System.exe
+C:\Users\Fatima Abdullahi\source\repos\BMI System\BMI System\bin\Debug\BMI System.pdb
+C:\Users\Fatima Abdullahi\source\repos\BMI System\BMI System\obj\Debug\BMI System.csproj.AssemblyReference.cache
+C:\Users\Fatima Abdullahi\source\repos\BMI System\BMI System\obj\Debug\BMI_System.Form1.resources
+C:\Users\Fatima Abdullahi\source\repos\BMI System\BMI System\obj\Debug\BMI_System.Properties.Resources.resources
+C:\Users\Fatima Abdullahi\source\repos\BMI System\BMI System\obj\Debug\BMI System.csproj.GenerateResource.cache
+C:\Users\Fatima Abdullahi\source\repos\BMI System\BMI System\obj\Debug\BMI System.csproj.CoreCompileInputs.cache
+C:\Users\Fatima Abdullahi\source\repos\BMI System\BMI System\obj\Debug\BMI System.exe
+C:\Users\Fatima Abdullahi\source\repos\BMI System\BMI System\obj\Debug\BMI System.pdb
+C:\Users\Fatima Abdullahi\source\repos\BMI System\BMI System\obj\Debug\BMI System.exe.config
