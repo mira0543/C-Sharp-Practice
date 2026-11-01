@@ -1,5 +1,5 @@
 ## If Statement  
-**Explaination**
+
 An `if` statement checks a condition and runs its statements only when the condition is true.
 
 ### How the Code Works
@@ -21,7 +21,7 @@ private void checkButton_Click(object sender, EventArgs e)
 
 ```
 ## Code
-[If Statement](ifStatement.png);
+![If Statement](ifStatement.png);
 
 ## If-else Statement
 An `if-else` statement chooses between two possible actions.
@@ -122,7 +122,7 @@ else
 
 ```
 
-[if else if Statement/Input validation](ifElseIfValidation.png)
+![if else if Statement/Input validation](ifElseIfValidation.png)
 
 
 ## ListBox: Adding, Removing, and Clearing Items
@@ -154,4 +154,4 @@ daysListBox.Items.RemoveAt(1);
 daysListBox.Items.Clear();
 ```
 
-[list Box](listbox.png)
+![list Box](listbox.png)
