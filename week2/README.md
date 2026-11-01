@@ -1,328 +1,145 @@
-# Chapter 2: Processing Data
+# Chapter 2 — Processing Data
 
-**Course:** C# Practice\
-**Book:** Starting Out with Visual C# (6th Edition) by Tony Gaddis
 
-------------------------------------------------------------------------
+## Topics
 
-## 1. Reading Input with TextBox Controls
+1. ## Reading Input with TextBox Controls
+2. ## A First Look at Variables
+3. ## Numeric Data Types and Variables
+4. ## Performing Calculations
+5. ## Inputting and Outputting Numeric Values
+6. ## Formatting Numbers with the ToString Method
+7. ## Simple Exception Handling
+8. ## Using Named Constants
 
-A `TextBox` allows the user to enter data using the keyboard. The input
-is stored in the `Text` property and is treated as a string.
-![TextBox Input](Screenshots/Textboxinput.png)
-``
+---
 
+##  Reading Input with TextBox Controls
 
-To clear a TextBox, use any of these statements:
+A **TextBox** is a rectangular control that accepts keyboard input. You can find it under **Common Controls** in the Toolbox. Its default name is `textBox1`, `textBox2`, etc.
 
-``` csharp
-textBox1.Text = "";
-textBox1.Text = string.Empty;
-textBox1.Clear();
-![Clearing text box](Screenshots/cleartextboxand label.png)
-```
+### The Text Property
 
-## 2. Variables
+The **Text** property stores the user's input as a **string**, even when the user types a number.
 
-A variable is a storage location in memory used to store data. A
-variable must be declared before it can be used.
+The Text property stores what the user types. The content can be cleared by assigning an empty string or using the Clear method.
 
-**Syntax:**
+## 3.2 A First Look at Variables
 
-``` csharp
-DataType variableName;
+A **variable** is a storage location in memory. Its name identifies that location. A variable must be **declared** with a data type before it is used.
 
-![variables](Screenshots/Variables.png)
-```
+A variable declaration specifies a data type and a variable name.
 
-## 3. Data Types
+### Data Types
 
-A data type specifies what kind of data a variable can store.
+A **data type** specifies the kind of data a variable can hold. The slides group types into primitive/basic types (including integral, floating-point, `char`, `bool`, and `string`) and non-primitive types (including collections and user-defined types).
 
--   `string`: stores text and characters.
--   `int`: stores whole numbers.
--   `double`: stores numbers with fractional parts.
--   `decimal`: stores decimal numbers with greater precision, commonly
-    used for financial values.
+### Variable Names
 
-Primitive data types are basic, built-in types provided by the
-programming language.
+Choose meaningful names. A name must begin with a letter or underscore, cannot contain spaces, and cannot be a reserved keyword.
 
-## 4. Variable Naming Rules
+### String Variables and Concatenation
 
-A variable name: - Must begin with a letter or underscore (`_`). -
-Cannot contain spaces. - Should have a meaningful name. - Cannot be a C#
-keyword or reserved word.
+A **string** contains characters, such as names and phone numbers. String values are enclosed in double quotation marks. **Concatenation** joins strings using `+`, including strings combined with numbers.
 
-## 5. String Variables
+Concatenation can join text with numeric values.
 
-A string stores a combination of characters, such as names, phone
-numbers, and other text.
+### Declaring, Initializing, and Using Variables
 
-Example:
+- You may declare a variable first and assign a value later, but a local variable must have a value before it is read.
+- You can declare multiple variables of the same type in one statement, in one declaration.
+- **Local variable:** declared inside a method and accessible only within its scope. Its lifetime ends when the method finishes.
+- **Duplicate names:** two variables cannot have the same name in the same scope; the same name may appear in different methods.
+- **Assignment compatibility:** the assigned value must be compatible with the variable's data type.
 
-``` csharp
-string universityName = "Jamhuuriya University";
-```
+**Example from the chapter:** The *String Variable Demo* combines a first name and last name and displays the full name in a Label. The *Birth Date String* form is a home assignment.
 
-## 6. String Concatenation
+## Numeric Data Types and Variables
 
-Concatenation means joining strings together. The `+` operator is used
-to join strings.
+Use numeric data types when numbers will be used in calculations.
 
-Example:
+| Type | Description |
+|---|---|
+| `int` | Stores whole numbers |
+| `double` | Stores real numbers, including fractional parts |
+| `decimal` | Stores real numbers with greater precision; often used in financial applications |
 
-``` csharp
-string fullName = firstNameTextBox.Text + " " + lastNameTextBox.Text;
-fullNameLabel.Text = fullName;
-```
+### Numeric Literals
 
-This joins the first name, a space, and the last name, then displays the
-result in a Label.
+A **numeric literal** is a number written directly in code. Whole-number literals are treated as `int`, decimal-point literals as `double`, and a suffix `m` or `M` marks a `decimal` literal.
 
-## 7. Local Variables, Scope, and Lifetime
+### Assignment Compatibility and Casting
 
-A **local variable** is declared inside a method and can only be
-accessed within that method.
+- An `int` variable accepts `int` values, not `double` or `decimal` values directly.
+- A `double` variable accepts `double` and `int` values, not `decimal` directly.
+- A `decimal` variable accepts `decimal` and `int` values, not `double` directly.
+- **Casting** explicitly converts a value to another type, using a type name in parentheses, using a type name in parentheses.
 
--   **Scope:** the part of a program where a variable can be accessed.
--   **Lifetime:** the period during which a variable exists in memory
-    while the program is running.
+### The `var` Keyword
 
-![Local variablr](Screenshots/localvariable.png)
+`var` lets the compiler determine a **local variable's type** from its initial value. A `var` declaration must include an initialization value.
 
-## 8. Variable Initialization and Assignment Compatibility
+## Performing Calculations
 
-**Initialization** means assigning a value to a variable. A variable
-must be assigned a value before it is used.
+C# uses arithmetic operators to perform calculations.
 
-**Assignment compatibility** means that a value can only be assigned to
-a variable when the value is compatible with the variable's data type.
+| Operator | Operation |
+|---|---|
+| `+` | Addition |
+| `-` | Subtraction |
+| `*` | Multiplication |
+| `/` | Division |
+| `%` | Modulus (remainder) |
 
-You can declare multiple variables of the same data type in one
-statement:
+### Calculation Rules
 
-``` csharp
-string lastName, firstName, middleName;
-```
+Use the **order of operations** and parentheses to group calculations. When combining `int` with `double`, the result is `double`; combining `int` with `decimal` produces `decimal`. Direct calculations between `double` and `decimal` are not allowed.
 
-## 9. Numeric Data Types and Variables
+### Integer Division
 
-Numeric data types are used when a program needs to store numbers and
-perform calculations.
+Dividing one `int` by another `int` gives an integer result. The chapter illustrates how the fractional part is discarded in integer division. To obtain a fractional result, use a `double` value or cast an operand to `double`.
 
-  -----------------------------------------------------------------------
-  Data Type                           Description
-  ----------------------------------- -----------------------------------
-  `int`                               Stores whole numbers
+## Inputting and Outputting Numeric Values
 
-  `double`                            Stores numbers with decimal or
-                                      fractional parts
+A TextBox stores keyboard input as **text**, so numeric input must be converted before calculations.
 
-  `decimal`                           Stores decimal numbers with greater
-                                      precision, commonly used for
-                                      financial values
-  -----------------------------------------------------------------------
+| Method | Purpose |
+|---|---|
+| `int.Parse()` | Converts a numeric string to `int` |
+| `double.Parse()` | Converts a numeric string to `double` |
+| `decimal.Parse()` | Converts a numeric string to `decimal` |
+| `ToString()` | Converts a value to a string for display |
 
-## 10. Numeric Literals
+Numeric input is converted before calculations, and numeric results are converted to strings for display.
 
-A numeric literal is a number written directly in the program.
+The chapter also shows culture-specific number formatting, and the **Fuel Economy** form as a home assignment.
 
-``` csharp
-int hoursWorked = 40;
-double temperature = 87.6;
-decimal payRate = 28.75m;
-![Numeric](Screenshots/Numeric.png)
-```
+## Formatting Numbers with the ToString Method
 
-The `m` or `M` suffix identifies a decimal literal.
+`ToString()` can format a number for display.
+Format Purpose Example "N" Number format 12.300 "F" Fixed-point format 123456.00 "E" Exponential format 1.235e+005 "C" Currency format $1,234.56 "P" Percentage format 23.40%
 
+## Simple Exception Handling
 
-## 11. Type Casting and the `var` Keyword
+An **exception** is an unexpected runtime error, such as invalid input, dividing by zero, or attempting to open a missing file. Unhandled exceptions can stop a program.
 
-**Type casting** is explicitly converting a value from one data type to
-another.
+### `try` and `catch`
 
-``` csharp
-decimal moneyNumber = 4500m;
-int wholeNumber = (int)moneyNumber;
-```
+- **`try` block:** contains statements that might cause an exception.
+- **`catch` block:** contains statements that respond when an exception occurs.
+- **Throwing:** an error occurs or is raised.
+- **Catching:** the program handles the error.
+- **`Exception.Message`:** provides the exception's default error description; the chapter displays it using `ex.Message`.
 
-The `var` keyword allows C# to determine the variable's data type from
-the value assigned to it. A variable declared with `var` must be
-initialized.
+The chapter demonstrates exception handling with a **fuel economy calculation** and a classroom practice exercise.
 
-``` csharp
-var interestRate = 12.0;
-var stockCode = "D465U";
-```
+## Named Constants
 
-## 12. Performing Calculations
+A **named constant** represents a value that **cannot change** while the program runs. Declare one with the `const` keyword.
 
-C# uses arithmetic operators to perform mathematical calculations.
+The chapter uses an interest-rate constant as an example.
 
-  Operator   Meaning
-  ---------- ---------------------
-  `+`        Addition
-  `-`        Subtraction
-  `*`        Multiplication
-  `/`        Division
-  `%`        Modulus (remainder)
+Uppercase constant names are traditional, but not required.
 
-Follow the order of operations and use parentheses when needed.
 
-**Integer division:** When two integers are divided, the result is an
-integer. To get a fractional result, convert one value to `double`.
-
-## 13. Inputting and Outputting Numeric Values
-
-TextBox input is always treated as a string, even when the user enters a
-number. Convert it to a numeric type before performing calculations.
-
-Common conversion methods:
-
-``` csharp
-int hoursWorked = int.Parse(hoursWorkedTextBox.Text);
-double temperature = double.Parse(temperatureTextBox.Text);
-decimal payRate = decimal.Parse(payRateTextBox.Text);
-```
-
-To display a numeric value in a Label or TextBox, convert it to a string
-using `ToString()`.
-
-``` csharp
-grossPayLabel.Text = grossPay.ToString();
-```
-
-## 14. Formatting Numbers with `ToString()`
-
-The `ToString()` method can format numbers in different ways.
-
-  Format   Purpose
-  -------- --------------------
-  `"N"`    Number format
-  `"F"`    Fixed-point format
-  `"E"`    Exponential format
-  `"C"`    Currency format
-  `"P"`    Percentage format
-
-Example:
-
-``` csharp
-grossPayLabel.Text = grossPay.ToString("c");
-```
-
-## 15. Exception Handling with `try-catch`
-
-An **exception** is an unexpected error that occurs while a program is
-running. Examples include invalid user input and dividing by zero.
-
-The `try` block contains code that might cause an exception. The `catch`
-block handles the exception.
-
-``` csharp
-try
-{
-    double miles = double.Parse(milesTextBox.Text);
-    double gallons = double.Parse(gallonsTextBox.Text);
-    double mpg = miles / gallons;
-
-    mpgLabel.Text = mpg.ToString();
-}
-catch (Exception ex)
-{
-    MessageBox.Show(ex.Message);
-}
-![Try and Catch](Screenshots/trycatch.png)
-```
-
-## 16. Named Constants
-
-A named constant represents a value that cannot be changed during
-program execution. The `const` keyword is used to declare a constant.
-
-``` csharp
-const double INTEREST_RATE = 0.129;
-![Constant](Screenshots/Constant.png)
-```
-
-## 17. Declaring Variables as Fields
-
-A **field** is a variable declared inside a class but outside of any
-method. A field's scope is the class, subject to its access rules.
-
-## 18. Using the Math Class
-
-The .NET `Math` class provides methods for mathematical calculations.
-
--   `Math.Sqrt(x)`: returns the square root of `x`.
--   `Math.Pow(x, y)`: returns `x` raised to the power of `y`.
--   `Math.Max(x, y)`: returns the greater of two values.
--   `Math.Min(x, y)`: returns the lesser of two values.
--   `Math.Round(x)`: rounds a value to the nearest integer.
--   `Math.PI`: represents pi.
--   `Math.E`: represents the natural logarithmic base.
-
-## 19. More GUI Details
-
--   **Tab order:** the order in which controls receive keyboard focus.
--   **Focus:** a control receives keyboard input when it has focus. Use
-    `ControlName.Focus()` to move focus.
--   **Access keys:** adding `&` before a letter in a button's Text
-    property creates an Alt-key shortcut.
--   **Colors:** `BackColor` sets the background color and `ForeColor`
-    sets the text color.
--   **Background images:** `BackgroundImage` and `BackgroundImageLayout`
-    control a form's background image.
--   **GroupBox and Panel:** both can contain other controls. A GroupBox
-    can display a title; a Panel cannot.
-
-## 20. Debugging Logic Errors
-
-A **logic error** is a mistake that allows an application to run but
-causes an incorrect result.
-
--   **Breakpoint:** pauses execution at a selected line.
--   **Break mode:** allows you to examine variable values and control
-    properties.
--   **Locals window:** displays local variables and their current
-    values.
--   **Watch window:** displays variables selected for monitoring.
--   **Single-stepping:** executes code one statement at a time. Press
-    `F11` or use **Step Into**.
-
-------------------------------------------------------------------------
-
-## Summary
-
-  -----------------------------------------------------------------------
-  Topic                               Main Idea
-  ----------------------------------- -----------------------------------
-  TextBox controls                    Receive user input as strings
-
-  Variables and data types            Store different kinds of data
-
-  Concatenation                       Joins strings using `+`
-
-  Numeric data and calculations       Store numbers and perform
-                                      arithmetic
-
-  `Parse()` and `ToString()`          Convert input and prepare values
-                                      for display
-
-  Number formatting                   Displays values as numbers,
-                                      currency, percentages, and more
-
-  `try-catch`                         Responds to runtime exceptions
-
-  Constants and fields                Store fixed values and class-level
-                                      data
-
-  Math class                          Provides mathematical methods and
-                                      constants
-
-  GUI details                         Configure focus, colors, shortcuts,
-                                      and containers
-
-  Debugging                           Helps locate logic errors
-  -----------------------------------------------------------------------
+---
