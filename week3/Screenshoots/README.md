@@ -1,4 +1,4 @@
-## If Statement and If-else Statement 
+## If Statement  
 **Explaination**
 An `if` statement checks a condition and runs its statements only when the condition is true.
 
