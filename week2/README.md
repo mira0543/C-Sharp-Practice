@@ -3,14 +3,14 @@
 
 ## Topics
 
-# 1.  Reading Input with TextBox Controls
-# 2.  A First Look at Variables
-# 3.  Numeric Data Types and Variables
-# 4.  Performing Calculations
-# 5.  Inputting and Outputting Numeric Values
-# 6.  Formatting Numbers with the ToString Method
-# 7.  Simple Exception Handling
-# 8.  Using Named Constants
+1.  Reading Input with TextBox Controls
+2.  A First Look at Variables
+3.  Numeric Data Types and Variables
+4.  Performing Calculations
+5.  Inputting and Outputting Numeric Values
+6.  Formatting Numbers with the ToString Method
+7.  Simple Exception Handling
+8.  Using Named Constants
 
 ---
 
