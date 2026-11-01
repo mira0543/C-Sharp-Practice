@@ -51,7 +51,7 @@ private void checkButton_Click(object sender, EventArgs e)
 ```
 ## Code
 
-[if-else Statement](if_else.png)
+![if-else Statement](if_else.png)
 
 ## Nested IF
 Nested decisions place one decision inside another. The chapter uses a loan qualification example.
@@ -78,7 +78,7 @@ else
     decisionLabel.Text = "Minimum salary requirement not met.";
 }
 ```
-[Nested If](Nestedif.png)
+![Nested If](Nestedif.png)
 
 
 ## If-else-if Statement and input validation
