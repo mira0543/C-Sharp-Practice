@@ -8,13 +8,14 @@ A **`StreamWriter`** writes text to a file. `File.CreateText()` creates a file o
 ### Code
 
 ```csharp
+//Create the file
 StreamWriter outputFile;
-outputFile = File.CreateText("courses.txt");
-
-outputFile.WriteLine("Introduction to Computer Science");
-outputFile.WriteLine("English Composition");
-outputFile.WriteLine("Calculus I");
-
+outputFile = File.CreateText("Student.txt");
+//Write data
+outputFile.WriteLine("Welcome to C#");
+outputFile.WriteLine("C# is Very hard");
+outputFile.WriteLine("Hello World");
+//Close the file
 outputFile.Close();
 ```
 
