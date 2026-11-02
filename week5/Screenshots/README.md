@@ -19,7 +19,7 @@ outputFile.WriteLine("Hello World");
 outputFile.Close();
 ```
 
-[Creating and Writing to a text Files](createWrite.png)
+![Creating and Writing to a text Files](createWrite.png)
 
 ---
 
@@ -40,7 +40,7 @@ outputFile.WriteLine("Alex");
 outputFile.Close();
 ```
 
-[Apppend Data](Append.png)
+![Apppend Data](Append.png)
 
 ---
 
@@ -58,7 +58,7 @@ outputFile.WriteLine("Alex");
 outputFile.Close();
 ```
 
-[File Path](Path.png)
+![File Path](Path.png)
 
 ---
 
@@ -77,7 +77,7 @@ MessageBox.Show(studentName);
 
 inputFile.Close();
 ```
-[Reading Data](readingData.png)
+![Reading Data](readingData.png)
 
 ---
 
@@ -99,7 +99,7 @@ while (!inputFile.EndOfStream)
 
 inputFile.Close();
 ```
-[Read file with EndOfStrem](EndOfStream.png)
+![Read file with EndOfStrem](EndOfStream.png)
 ---
 
 ## Displaying an `OpenFileDialog`
@@ -115,7 +115,7 @@ private void openButton_Click(object sender, EventArgs e)
 }
 ```
 
-[Display an `OpenFileDialog`](OpenFileDialog.png)
+![Display an `OpenFileDialog`](OpenFileDialog.png)
 ---
 
 ## Checking the Dialog Result
@@ -142,7 +142,7 @@ private void openButton_Click(object sender, EventArgs e)
     }
 ```
 
-[Cheching the dialog result](Dialog.png)
+![Cheching the dialog result](Dialog.png)
 ---
 
 ## Code 8: Opening the Selected File
@@ -174,7 +174,7 @@ The **`FileName`** property contains the path of the file chosen by the user. **
         inputFile.Close();
     }
 ```
-[Opening Selected File](InitialDirectory.png)
+![Opening Selected File](InitialDirectory.png)
 ---
 
 ## Saving a File with `SaveFileDialog`
@@ -193,4 +193,4 @@ if (saveFileDialog.ShowDialog() == DialogResult.OK)
     outputFile.Close();
 }
 ```
-[Save File With `SaveFileDialog`](SaveDialog.png)
+![Save File With `SaveFileDialog`](SaveDialog.png)
