@@ -8,7 +8,7 @@
 
 ---
 
-## 5 Using Files for Data Storage
+## Using Files for Data Storage
 
 A program writes data to a **file** when it needs to save information for later use.
 
@@ -83,7 +83,7 @@ outputFile.Close();
 
 ---
 
-## 5.6 The OpenFileDialog and SaveFileDialog Controls
+## The OpenFileDialog and SaveFileDialog Controls
 
 These controls display standard Windows dialog boxes to help users choose files to open or locations to save files. They are **invisible controls**, meaning they appear in the Designer's component tray rather than directly on the form.
 
