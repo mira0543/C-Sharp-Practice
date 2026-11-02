@@ -111,7 +111,7 @@ An **`OpenFileDialog`** displays the standard Windows file-selection window so a
 ```csharp
 private void openButton_Click(object sender, EventArgs e)
 {
-    openFileDialog.ShowDialog();
+    OpenFileDialog openFile = new OpenFileDialog();
 }
 ```
 
@@ -125,16 +125,21 @@ private void openButton_Click(object sender, EventArgs e)
 ### Code
 
 ```csharp
-DialogResult result = openFileDialog.ShowDialog();
+    // Create an OpenFileDialog object
+    OpenFileDialog openFileDialog = new OpenFileDialog();
 
-if (result == DialogResult.OK)
-{
-    MessageBox.Show("File selected");
-}
-else if (result == DialogResult.Cancel)
-{
-    MessageBox.Show("Selection canceled");
-}
+    // Display the dialog box
+    DialogResult result = openFileDialog.ShowDialog();
+
+    // Check if the user selected a file
+    if (result == DialogResult.OK)
+    {
+        MessageBox.Show("File selected");
+    }
+    else if (result == DialogResult.Cancel)
+    {
+        MessageBox.Show("Selection canceled");
+    }
 ```
 
 [Cheching the dialog result](Dialog.png)
@@ -147,16 +152,27 @@ The **`FileName`** property contains the path of the file chosen by the user. **
 ### Code
 
 ```csharp
-openFileDialog.InitialDirectory = @"C:\Data";
+// Create an OpenFileDialog object
+    OpenFileDialog openFileDialog = new OpenFileDialog();
 
-if (openFileDialog.ShowDialog() == DialogResult.OK)
-{
-    StreamReader inputFile;
-    inputFile = File.OpenText(openFileDialog.FileName);
+    // Set the initial folder
+    openFileDialog.InitialDirectory = @"C:\Data";
 
-    MessageBox.Show(inputFile.ReadToEnd());
-    inputFile.Close();
-}
+    // Display the dialog and check if user clicks Open
+    if (openFileDialog.ShowDialog() == DialogResult.OK)
+    {
+        // Create a StreamReader variable
+        StreamReader inputFile;
+
+        // Open the selected text file
+        inputFile = File.OpenText(openFileDialog.FileName);
+
+        // Read all text and display it
+        MessageBox.Show(inputFile.ReadToEnd());
+
+        // Close the file
+        inputFile.Close();
+    }
 ```
 [Opening Selected File](InitialDirectory.png)
 ---
