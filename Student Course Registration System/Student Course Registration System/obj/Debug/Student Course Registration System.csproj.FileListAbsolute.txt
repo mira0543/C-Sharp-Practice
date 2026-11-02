@@ -1,0 +1,11 @@
+C:\Users\Fatima Abdullahi\source\repos\Student Course Registration System\Student Course Registration System\bin\Debug\Student Course Registration System.exe.config
+C:\Users\Fatima Abdullahi\source\repos\Student Course Registration System\Student Course Registration System\bin\Debug\Student Course Registration System.exe
+C:\Users\Fatima Abdullahi\source\repos\Student Course Registration System\Student Course Registration System\bin\Debug\Student Course Registration System.pdb
+C:\Users\Fatima Abdullahi\source\repos\Student Course Registration System\Student Course Registration System\obj\Debug\Student Course Registration System.csproj.AssemblyReference.cache
+C:\Users\Fatima Abdullahi\source\repos\Student Course Registration System\Student Course Registration System\obj\Debug\Student_Course_Registration_System.Form1.resources
+C:\Users\Fatima Abdullahi\source\repos\Student Course Registration System\Student Course Registration System\obj\Debug\Student_Course_Registration_System.Properties.Resources.resources
+C:\Users\Fatima Abdullahi\source\repos\Student Course Registration System\Student Course Registration System\obj\Debug\Student Course Registration System.csproj.GenerateResource.cache
+C:\Users\Fatima Abdullahi\source\repos\Student Course Registration System\Student Course Registration System\obj\Debug\Student Course Registration System.csproj.CoreCompileInputs.cache
+C:\Users\Fatima Abdullahi\source\repos\Student Course Registration System\Student Course Registration System\obj\Debug\Student Course Registration System.exe
+C:\Users\Fatima Abdullahi\source\repos\Student Course Registration System\Student Course Registration System\obj\Debug\Student Course Registration System.pdb
+C:\Users\Fatima Abdullahi\source\repos\Student Course Registration System\Student Course Registration System\obj\Debug\Student Course Registration System.exe.config
