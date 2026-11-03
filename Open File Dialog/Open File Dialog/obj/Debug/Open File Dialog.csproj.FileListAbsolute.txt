@@ -1,0 +1,10 @@
+C:\Users\Fatima Abdullahi\source\repos\Open File Dialog\Open File Dialog\bin\Debug\Open File Dialog.exe.config
+C:\Users\Fatima Abdullahi\source\repos\Open File Dialog\Open File Dialog\bin\Debug\Open File Dialog.exe
+C:\Users\Fatima Abdullahi\source\repos\Open File Dialog\Open File Dialog\bin\Debug\Open File Dialog.pdb
+C:\Users\Fatima Abdullahi\source\repos\Open File Dialog\Open File Dialog\obj\Debug\Open File Dialog.csproj.AssemblyReference.cache
+C:\Users\Fatima Abdullahi\source\repos\Open File Dialog\Open File Dialog\obj\Debug\Open_File_Dialog.Form1.resources
+C:\Users\Fatima Abdullahi\source\repos\Open File Dialog\Open File Dialog\obj\Debug\Open_File_Dialog.Properties.Resources.resources
+C:\Users\Fatima Abdullahi\source\repos\Open File Dialog\Open File Dialog\obj\Debug\Open File Dialog.csproj.GenerateResource.cache
+C:\Users\Fatima Abdullahi\source\repos\Open File Dialog\Open File Dialog\obj\Debug\Open File Dialog.csproj.CoreCompileInputs.cache
+C:\Users\Fatima Abdullahi\source\repos\Open File Dialog\Open File Dialog\obj\Debug\Open File Dialog.exe
+C:\Users\Fatima Abdullahi\source\repos\Open File Dialog\Open File Dialog\obj\Debug\Open File Dialog.pdb
