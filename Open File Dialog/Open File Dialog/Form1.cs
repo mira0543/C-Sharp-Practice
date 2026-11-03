@@ -22,8 +22,9 @@ namespace Open_File_Dialog
         {
             //import file
             StreamReader reader;
-
+            
             DialogResult result;
+            //Open the file dialog
             result = OpenFile.ShowDialog();
 
             if (result == DialogResult.OK)
@@ -46,6 +47,7 @@ namespace Open_File_Dialog
 
         private void btnClear_Click(object sender, EventArgs e)
         {
+            //Clearing ListBox
             listResult.Items.Clear();
         }
 
